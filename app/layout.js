@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata = {
-  title: 'NexTrade - AI-Powered B2B Marketplace',
+  title: 'EsyGlob - AI-Powered B2B Marketplace',
   description: 'The future of global trade. AI-powered sourcing, verified suppliers, and seamless transactions.',
 }
 
