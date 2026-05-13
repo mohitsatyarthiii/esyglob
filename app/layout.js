@@ -2,8 +2,8 @@
 import { Inter, Space_Grotesk } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Navbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import './globals.css'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           <div className="relative flex min-h-screen flex-col">
             <Navbar />
             <main className="flex-1">{children}</main>
-            <Footer />
+            <Footer/>
           </div>
         </ThemeProvider>
       </body>
